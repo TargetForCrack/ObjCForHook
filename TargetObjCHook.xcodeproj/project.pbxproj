@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -134,8 +134,8 @@
 		3A82A8D729C42F750028CC6D /* expand */ = {
 			isa = PBXGroup;
 			children = (
-				3A82A8D829C42F750028CC6D /* ExpandViewController.m */,
 				3A82A8D929C42F750028CC6D /* ExpandViewController.h */,
+				3A82A8D829C42F750028CC6D /* ExpandViewController.m */,
 				3A82A8DA29C42F750028CC6D /* ExpandViewController.xib */,
 			);
 			path = expand;
@@ -372,7 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 38D3676P2T;
+				DEVELOPMENT_TEAM = 5YBWG2X244;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TargetObjCHook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -401,7 +401,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 38D3676P2T;
+				DEVELOPMENT_TEAM = 5YBWG2X244;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TargetObjCHook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
