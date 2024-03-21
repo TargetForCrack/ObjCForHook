@@ -21,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wfb-3f-YG6">
-                    <rect key="frame" x="10" y="64" width="373" height="45"/>
+                    <rect key="frame" x="10" y="64" width="373" height="100"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2j-tt-fC4">
                             <rect key="frame" x="0.0" y="0.0" width="373" height="45"/>
@@ -30,15 +30,24 @@
                                 <constraint firstAttribute="height" constant="45" id="RGY-cB-yEG"/>
                             </constraints>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="调用 C 函数"/>
+                            <buttonConfiguration key="configuration" style="plain" title="调用 .c 文件中的 C函数"/>
                             <connections>
                                 <action selector="call_c_func:" destination="-1" eventType="touchUpInside" id="TJ0-RU-nk1"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkE-In-8NG">
+                            <rect key="frame" x="0.0" y="55" width="373" height="45"/>
+                            <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="调用 .m 文件中的 C函数"/>
+                            <connections>
+                                <action selector="call_func_c2_act:" destination="-1" eventType="touchUpInside" id="a7r-Wd-Fs3"/>
                             </connections>
                         </button>
                     </subviews>
                 </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="999999" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCk-lH-h6d">
-                    <rect key="frame" x="10" y="119" width="373" height="0.0"/>
+                    <rect key="frame" x="10" y="174" width="373" height="0.0"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>

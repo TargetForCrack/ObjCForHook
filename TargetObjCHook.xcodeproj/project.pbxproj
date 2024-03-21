@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244205772BAB147D0051B2EF /* Target.c in Sources */ = {isa = PBXBuildFile; fileRef = 244205762BAB147D0051B2EF /* Target.c */; };
 		3A82A8BC29C42EFC0028CC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A82A8BB29C42EFC0028CC6D /* Assets.xcassets */; };
 		3A82A8BF29C42EFC0028CC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A82A8BD29C42EFC0028CC6D /* LaunchScreen.storyboard */; };
 		3A82A8C229C42EFC0028CC6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A82A8C129C42EFC0028CC6D /* main.m */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		244205752BAB147D0051B2EF /* Target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		244205762BAB147D0051B2EF /* Target.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Target.c; sourceTree = "<group>"; };
 		3A82A8AC29C42EFB0028CC6D /* TargetObjCHook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetObjCHook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A82A8BB29C42EFC0028CC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A82A8BE29C42EFC0028CC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				3A82A8D929C42F750028CC6D /* ExpandViewController.h */,
 				3A82A8D829C42F750028CC6D /* ExpandViewController.m */,
 				3A82A8DA29C42F750028CC6D /* ExpandViewController.xib */,
+				244205752BAB147D0051B2EF /* Target.h */,
+				244205762BAB147D0051B2EF /* Target.c */,
 			);
 			path = expand;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 				3A82A8EE29C430090028CC6D /* PersonModle.m in Sources */,
 				3A82A8E129C42F750028CC6D /* AppDelegate.m in Sources */,
 				3A82A8E829C42F750028CC6D /* BasicViewController.m in Sources */,
+				244205772BAB147D0051B2EF /* Target.c in Sources */,
 				3A82A8E229C42F750028CC6D /* OtherViewController.m in Sources */,
 				3A82A8C229C42EFC0028CC6D /* main.m in Sources */,
 				3A82A8EF29C430090028CC6D /* AllFunction.m in Sources */,
@@ -384,7 +390,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.jobs8.TargetObjCHook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobs8.TargetObjCHook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -413,7 +419,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.jobs8.TargetObjCHook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobs8.TargetObjCHook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
